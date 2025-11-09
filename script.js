@@ -20,7 +20,7 @@ const translations = {
         contact: '联系',
         privacy: '隐私政策',
         terms: '服务条款',
-        welcome: '欢迎来到Opus Atelier Ltd',
+        welcome: '欢迎来到OpusAtelier Ltd',
         desc: '专注于使用合成材料制作的实惠定制时尚首饰。不涉及贵金属或宝石。',
         // Add more
     }
