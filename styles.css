@@ -1,0 +1,19 @@
+body { font-family: Arial, sans-serif; margin: 0; background-color: #f9f9f9; color: #333; }
+header { background-color: #4a4a4a; color: white; padding: 20px; text-align: center; }
+nav { background-color: #333; padding: 10px; text-align: center; }
+nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+nav a:hover { color: #ffd700; }
+section { padding: 20px; max-width: 1200px; margin: auto; }
+.product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+.product { text-align: center; border: 1px solid #ddd; padding: 10px; background: white; }
+.product img { width: 100%; height: 200px; object-fit: cover; }
+form { max-width: 600px; margin: auto; background: white; padding: 20px; border: 1px solid #ddd; }
+input, textarea, select { width: 100%; padding: 10px; margin: 10px 0; }
+button { background-color: #4CAF50; color: white; padding: 10px; border: none; cursor: pointer; width: 100%; }
+footer { background-color: #333; color: white; text-align: center; padding: 10px; margin-top: 20px; }
+.carousel { position: relative; max-width: 800px; margin: auto; }
+.carousel img { width: 100%; height: 300px; object-fit: cover; display: none; }
+.carousel img.active { display: block; }
+.lang-switch { position: absolute; top: 10px; right: 10px; }
+.lang-switch button { background: none; border: none; color: white; cursor: pointer; }
+@media (max-width: 768px) { .product-grid { grid-template-columns: 1fr; } }
