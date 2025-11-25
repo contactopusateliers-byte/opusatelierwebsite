@@ -9,7 +9,7 @@ const translations = {
         privacy: 'Privacy Policy',
         terms: 'Terms of Service',
         welcome: 'Welcome to Opus Atelier Ltd',
-        desc: 'Specializing in affordable custom fashion jewelry made from synthetic materials. No precious metals or stones.',
+        desc: 'Specializing in affordable custom fashion clothing made from synthetic and cotton materials. No luxury or high-value items.',
         // Add more translations as needed
     },
     zh: {
@@ -20,8 +20,8 @@ const translations = {
         contact: '联系',
         privacy: '隐私政策',
         terms: '服务条款',
-        welcome: '欢迎来到OpusAtelier Ltd',
-        desc: '专注于使用合成材料制作的实惠定制时尚首饰。不涉及贵金属或宝石。',
+        welcome: '欢迎来到Opus Atelier Ltd',
+        desc: '专注于使用合成和棉质材料制作的实惠定制时尚服装。不涉及奢侈或高价值物品。',
         // Add more
     }
 };
